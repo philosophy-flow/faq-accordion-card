@@ -186,19 +186,19 @@ body {
 }
 
 @media only screen and (max-width: 415px) {
-  .card {border-radius: 20px; min-height: 175px}
+  .card {border-radius: 20px; min-height: 175px; border-radius: 10px;}
 
-  .card-left, .card-right {width: 250px;}
+  .card-left, .card-right {width: 90%;}
 
   .card-left {
-    background-position: top -140px left 0px;
-    min-height: 106px;
+    background-position: top -170px left 0px;
+    min-height: 125px;
   }
 
   .image-hidden {overflow: visible;}
 
   .image-hidden img {
-    top: -115px;
+    top: -135px;
   }
 
   .card-right h4 {
