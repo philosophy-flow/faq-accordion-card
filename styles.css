@@ -183,6 +183,14 @@ body {
   .image-hidden img {
     top: -135px;
   }
+
+  .card-right h4 {
+    font-size: 13px;
+  }
+
+  .card-right p {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 330px) {
@@ -199,13 +207,5 @@ body {
 
   .image-hidden img {
     top: -120px;
-  }
-
-  .card-right h4 {
-    font-size: 12.5px;
-  }
-
-  .card-right p {
-    font-size: 12px;
   }
 }
